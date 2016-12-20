@@ -12,11 +12,16 @@ h1 {
 }
 
 #couple {
-    /*margin-right: 30px; */
-  display: block;
-  padding:50px 400px;
+    display: block;
+  /*margin-right: 30px; */
   /*background-color: white;*/
-  margin-right:95px;
+  /*margin-right:95px;*/
+  /*padding:50px 400px;*/
+ position: relative;
+ width:600px;
+ height:600px;
+ 
+
 }
 
 #couple2 {
@@ -24,10 +29,11 @@ h1 {
     display: block;
     /*height: 10;*/
     /*width: 10;*/
-  margin-left: 10px ;
+  
   float:left;
   background-color:black;
-  padding:0px 0px 0px 0px;
+  /*padding:0px 0px 0px 0px;*/
+  /*margin-left: 10px ;*/
 }
 
 h2 {
@@ -64,11 +70,7 @@ h3,h4 {
 .grey-button:hover {
     background: #79150F;
 }
-.relative {
-  position: relative;
-  top: 100px;
-  left: 500px;
-}
+
 h5{
     font-size:30px;
     color:#79150F;
